@@ -1,0 +1,152 @@
+img{
+    display: flex;
+    width: 300px;
+    height:200px;
+    justify-content: flex-start;
+}
+
+.div2{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Clarkson',Helvetica,sans-serif;
+    font-size:20px;
+    color:whitesmoke;
+    
+}
+body{
+    background-color: #EDF5E1;
+    margin: 0;
+    padding: 0;
+    
+}
+#text60{
+  color: #05386B;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 25px;
+}
+
+#div1{
+  background-color:#5CDB95;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+/* .active {
+  background-color: white;
+} */
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #05386B;
+
+  
+}
+
+.newbutton{
+  background-color:#05386B;
+    border-radius: 8px;
+   color:black;
+   border:none;
+    font-size: 16px;
+    opacity: 1;
+    white-space:nowrap;
+   cursor:pointer;
+   width:120px;
+   height:80px;
+    padding: 15px 32px solid black;
+    justify-content: space-between;
+    margin: 4px 2px;
+  
+   text-decoration: none;
+   -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+   display: inline-block;
+}
+.newbutton:hover{
+  background-color: #5CDB95 ;
+}
+.moneyways{
+  display: flex;
+  
+  justify-content: space-between;
+
+}
+
+#myBtn{
+  background-color:#05386B;
+    border-radius: 8px;
+   color:white;
+   border:none;
+    font-size: 16px;
+    opacity: 1;
+    white-space:nowrap;
+   cursor:pointer;
+   width:165px;
+   height:80px;
+   
+   position: relative;
+   margin: auto;
+
+    
+  
+   text-decoration: none;
+   -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+   display: flex;
+   
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+    opacity: 1;
+    white-space:nowrap;
+   cursor:pointer;
+   -webkit-transition-duration: 0.4s; 
+   transition-duration: 0.4s;
+  display: inline-block;
+  border:none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #5CDB95
+}
+h2{
+  
+  text-align: center;
+}
+
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+
+  

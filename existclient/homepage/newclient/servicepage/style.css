@@ -1,0 +1,97 @@
+img{
+    display: flex;
+    width:300px;
+    height:200px;
+    justify-content: flex-start;
+    background-color: #5CDB95;
+}
+body{
+    background-color: #EDF5E1;
+    margin: 0;
+    padding: 0 ;
+    
+}
+#div1{
+  background-color:#5CDB95;
+}
+.service{
+  display: flex;
+  justify-content: space-between;
+  background-color: #EDF5E1;
+ 
+}
+.div2{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Clarkson',Helvetica,sans-serif;
+    font-size:20px;
+    color:#EDF5E1;
+    
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+.active {
+  background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #05386B;
+
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+    opacity: 1;
+    white-space:nowrap;
+   cursor:pointer;
+   -webkit-transition-duration: 0.4s; 
+   transition-duration: 0.4s;
+  display: inline-block;
+  border:none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #5CDB95
+}
+
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  
+  .text2{
+    color:#05386B;
+    background-color: #EDF5E1;
+    
+    font-size: large;
+    
+
+
+  }
